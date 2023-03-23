@@ -28,16 +28,13 @@ General Detector used pretrained YoloV5L on COCO dataset. This was further train
 Dataset was pre processed, prepared in YOLOv5 format and was trained for 50 epochs. The mAP@0.5 for this detector reached 89%
 
 
-Before correcting orientation				After correcting orientation
-
-
 General Detector output
-
+![alt text](https://github.com/bhavya-rema/Retail-product-detection/blob/main/Images/Detector_1.png)
 
 Multipack Detector output
-![alt text](https://github.com/bhavya-rema/E-Commerce-Recommendation/blob/main/Recommendation.png)
+![alt text](https://github.com/bhavya-rema/Retail-product-detection/blob/main/Images/Detector_2.png)
 
 
 Combined detector’s bounding boxes
-
+![alt text](https://github.com/bhavya-rema/Retail-product-detection/blob/main/Images/Detector_combined.png)
 
