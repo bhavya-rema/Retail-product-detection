@@ -21,6 +21,8 @@ to see if the centre points fall inside a multipack bounding box. If so, the box
 YOLOv5 dataloader does not consider exif data of images, which sometimes can lead to a rotated image when it's read. 
 Shelf images are therefore preprocessed to read the metadata and correct the orientation of the image before passing to the Detector module.
 
+![alt text](https://github.com/bhavya-rema/Retail-product-detection/blob/main/Images/preprocessing_1.png) ![alt text](https://github.com/bhavya-rema/Retail-product-detection/blob/main/Images/preprocessing_2.png)
+
 ## Results
 General Detector used pretrained YoloV5L on COCO dataset. This was further trained on the SKU110k dataset.  
 Dataset was pre processed, prepared in YOLOv5 format and was trained for 50 epochs. The mAP@0.5 for this detector reached 89%
