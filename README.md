@@ -15,7 +15,7 @@ Therefore, bounding box coordinates from the 2 detectors are combined with the M
 For combining bounding box coordinates, centre points of bounding boxes from the general detector are checked against Multipack box coordinates 
 to see if the centre points fall inside a multipack bounding box. If so, the boxes within a multipack are discarded to get the final set of bounding box coordinates. 
 
-![alt text](https://github.com/bhavya-rema/Retail-product-detection/blob/main/images/Architecture.png)
+![alt text](https://github.com/bhavya-rema/Retail-product-detection/images/blob/main/Architecture.png)
 ## Preprocessing
 YOLOv5 dataloader does not consider exif data of images, which sometimes can lead to a rotated image when it's read. 
 Shelf images are therefore preprocessed to read the metadata and correct the orientation of the image before passing to the Detector module.
